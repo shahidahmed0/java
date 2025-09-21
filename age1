@@ -15,11 +15,5 @@ public class age1 {
     else{
         System.out.print("you are underage");
     }
-  
-  
-  
-  
-  
-  
   }
 }
