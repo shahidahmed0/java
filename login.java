@@ -5,7 +5,7 @@ public class login {
 		Scanner input = new Scanner(System.in);
 
 
-		System.out.print("Enter a password: ");
+		System.out.print("Create a password: ");
 		String password = input.nextLine();
 
 		if (password.length() < 6) {
@@ -38,4 +38,5 @@ public class login {
 		input.close();
 	}
 }
+
 
