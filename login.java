@@ -10,6 +10,7 @@ public class login {
 
 		if (password.length() < 6) {
 			System.out.println("too short,try again");
+			System.exit(0)
 		} else if (password.length() >= 6 && password.length() < 10) {
 			System.out.println("weak password,try again(atleast 10 characters)");
 			System.exit(0);
@@ -37,3 +38,4 @@ public class login {
 		input.close();
 	}
 }
+
