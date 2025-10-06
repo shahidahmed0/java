@@ -1,25 +1,11 @@
 # 💎 Java — Small Practice Programs
 
-[![Run Program](https://github.com/shahidahmed0/java/actions/workflows/run.yml/badge.svg)](https://github.com/shahidahmed0/java/actions/workflows/run.yml)
+
 ![Language-Java](https://img.shields.io/badge/Language-Java-red)
 
 
 > A collection of small, focused Java console programs for learning and quick demos.  
 > Clean, runnable examples ideal for beginners and interview practice.
-
----
-
-## 📋 Table of Contents
-- [About](#about)  
-- [Programs](#programs)  
-- [Quick Start (Local)](#quick-start-local)  
-- [Run in GitHub Actions (CI)](#run-in-github-actions-ci)  
-- [Run in Codespaces / Online IDEs](#run-in-codespaces--online-ides)  
-- [Project Structure & Conventions](#project-structure--conventions)  
-- [How to add a demo GIF / screenshot](#how-to-add-a-demo-gif--screenshot)  
-- [Contributing](#contributing)  
-- [Troubleshooting](#troubleshooting)  
-- [License & Contact](#license--contact)
 
 ---
 
