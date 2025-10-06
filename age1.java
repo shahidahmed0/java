@@ -8,13 +8,13 @@ public class age1 {
     System.out.println("whats your age");
     int age=input.nextInt();
     if (age>=18){
-    	System.out.println("you are an adult");
+    	System.out.println("you are an adult and eligible to vote");
         }
   	else if(age<0){
   	    System.out.print("invalid");
   	}
     else{
-        System.out.print("you are underage");
+        System.out.print("you are underage and not eligible to vote");
     }
   
   }
