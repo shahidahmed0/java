@@ -76,6 +76,6 @@ public class diceface {
             case 5 -> System.out.println(f5);
             case 6 -> System.out.println(f6);
 
-        }
+       }
     }
 }
