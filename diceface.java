@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Random;
 public class diceface {
     public static void main(String[] args) {
-        int noofdice;
+        int noofdice; 
         int total = 0;
         int dice;
 
