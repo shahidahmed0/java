@@ -2,8 +2,6 @@
 # 💎 Java — Small Practice Programs
 
 ![Java](https://img.shields.io/badge/Language-Java-red)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
 
 ---
 
