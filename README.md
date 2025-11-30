@@ -1,38 +1,45 @@
-# 💎 Java — beginner Programs
+# ☕ Java — Beginner Programs
 
-![Language-Java](https://img.shields.io/badge/Language-Java-red)
-![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
-![Stars](https://img.shields.io/github/stars/shahidahmed0/java?style=social)
+![Language](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java)
 
-> A collection of small, focused Java console programs for learning and quick demos.  
-> Clean, runnable examples ideal for beginners and interview practice.
 
----
 
-## 🧾 About
-This repo contains beginner-friendly Java console apps such as a **calculator**, **simple banking simulator**, **dice examples**, and **login/password demos**. Each file is self-contained so you can compile and run it directly from the terminal or via CI.
+> **A collection of focused Java console programs for logic building and syntax practice.** > These projects are self-contained, lightweight, and ideal for beginners to study algorithms, loops, and data structures.
 
 ---
 
+## Project List
 
-## 📂 Programs
-| File | Purpose | Example output |
-|------|---------|----------------|
-| `age1.java` | Age input & response example | `Enter age: 18` → `You are an adult.` |
-| `calculator1.java` | Calculator (`+ - * / ^`) | `5 10 +` → `Result: 15` |
-| `login.java` | Password creation & login simulator | `Create password...` → `Login successful` |
-| `diceface.java` | Prints dice face for a single roll | `Dice rolled: 4` |
-| `inf_dice.java` | Rolls dice repeatedly in a loop | `Roll 1: 2, Roll 2: 5, ...` |
-| `bank.java` | Deposit/withdraw simple banking demo | `Deposit 500 -> Balance: 500` |
-
-
-> ✅ Each program is kept intentionally small so you can study one concept at a time.
+| File | Project Name | Description & Features | Key Concepts |
+| :--- | :--- | :--- | :--- |
+| `caesar.java` | **Caesar Cipher** | **(New)** Encrypts text using a shift key. Includes **Frequency Analysis** to detect the most common letter. | `ASCII Math` `Arrays` `Logic` |
+| `bank.java` | **Banking Simulator** | A simple CLI bank to deposit, withdraw, and check current balance. | `While Loops` `Conditionals` |
+| `calculator1.java` | **Basic Calculator** | Performs basic arithmetic operations (`+ - * /`) based on user input. | `Switch/Case` `Scanner Input` |
+| `login.java` | **Auth System** | Simulates creating a password and logging in with validation. | `String Comparison` `Booleans` |
+| `diceface.java` | **Dice Visualizer** | Generates a random number and prints the corresponding "face" using ASCII art. | `Math.random()` `Drawing` |
+| `inf_dice.java` | **Infinite Roller** | Continuously rolls dice in a loop until the user decides to stop. | `Infinite Loops` `Break` |
+| `age1.java` | **Age Validator** | Takes user age and outputs their life stage (Adult, Minor, etc.). | `If/Else` `Validation` |
 
 ---
 
-## 🚀 Quick Start (Local)
-Open a terminal in the folder containing the `.java` file.
+## Quick Start
 
-**Compile a single file**
+You can run any of these files directly from your terminal.
+
+## 1. Prerequisites
+Ensure you have the **Java Development Kit (JDK)** installed.
 ```bash
-javac calculator1.java
+java -version
+```
+## 2. How to Run
+Navigate to the folder and compile the specific file you want to test.
+Example: Running the Caesar Cipher
+
+### -- Compile the code
+```bash
+javac caesar.java
+```
+### -- Run the program (Note: Use the class name inside the file)
+```bash
+java ceaser
+```
