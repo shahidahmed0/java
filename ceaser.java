@@ -4,7 +4,7 @@ public class ceaser{
       Scanner input =new Scanner(System.in);
       System.out.println("==== CEASER CIPHER DECODER ===");
       System.out.print("enter the word:");
-      String word=input.next();
+      String word=input.nextLine();
       
       int[] counts = new int[26];
       int maxCount = 0;
@@ -32,6 +32,11 @@ public class ceaser{
       while(true){
          System.out.print("enter the expected shift:");
          int shift=input.nextInt();
+         
+         if (shift==0){
+            System.out.print("program exited");
+            break;}
+        
          for(int i=0;i<word.length();i++){
             char let=word.charAt(i);
          
@@ -42,8 +47,8 @@ public class ceaser{
          }
          System.out.println();
          System.out.println("type 0 to exit");
-         if (shift==0)
-            break;
+      
+        
       }
       input.close();
    }
