@@ -12,7 +12,7 @@
 
 | File | Project Name | Description & Features | Key Concepts |
 | :--- | :--- | :--- | :--- |
-| `caesar.java` | **Caesar Cipher** | **(New)** Encrypts text using a shift key. Includes **Frequency Analysis** to detect the most common letter. | `ASCII Math` `Arrays` `Logic` |
+| `caesar.java` | **Caesar Cipher** | Encrypts text using a shift key. Includes **Frequency Analysis** to detect the most common letter. | `ASCII Math` `Arrays` `Logic` |
 | `bank.java` | **Banking Simulator** | A simple CLI bank to deposit, withdraw, and check current balance. | `While Loops` `Conditionals` |
 | `calculator1.java` | **Basic Calculator** | Performs basic arithmetic operations (`+ - * /`) based on user input. | `Switch/Case` `Scanner Input` |
 | `login.java` | **Auth System** | Simulates creating a password and logging in with validation. | `String Comparison` `Booleans` |
