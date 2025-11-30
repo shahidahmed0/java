@@ -1,4 +1,4 @@
-# 💎 Java — Small Practice Programs
+# 💎 Java — beginner Programs
 
 ![Language-Java](https://img.shields.io/badge/Language-Java-red)
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
